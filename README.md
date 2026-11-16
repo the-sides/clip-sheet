@@ -4,8 +4,15 @@ A Rust + AppKit menu bar app for keeping a small table within one click.
 
 ## Install
 
+```sh
+git clone https://github.com/the-sides/clip-sheet.git
+cd clip-sheet
+./install.sh
+```
+
 On macOS 14 or newer with Rust installed, run `./install.sh`. It builds and
 launches `~/Applications/Clip Sheet.app`. No Dock icon, server, or web view.
+When using jOS, run this folder's installer without cloning again.
 
 ## Use
 
